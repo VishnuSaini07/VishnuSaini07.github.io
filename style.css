@@ -645,4 +645,9 @@ background: #2196f3;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
   }
+  .banner .socialMedia {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+  }
 }
