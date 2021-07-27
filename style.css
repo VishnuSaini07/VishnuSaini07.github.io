@@ -646,8 +646,6 @@ background: #2196f3;
     grid-gap: 10px;
   }
   .banner .socialMedia {
-    position: absolute;
     bottom: 100px;
-    display: flex;
   }
 }
