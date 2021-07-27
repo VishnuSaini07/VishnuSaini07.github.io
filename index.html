@@ -2,200 +2,197 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <link rel="stylesheet" href="style.css">
   <title>Portfolio | Vishnu Saini</title>
+  <link rel="shortcut icon" href="icons/favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
-<div class="container">
-  <div class="left-side">
+  <div class="wrapper">
     <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#project">Project</a></li>
-        <li><a href="#resume">Resume</a>  
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fa fa-bars" aria-hidden="true"></i></label>
+      <div class="content">
+        <div class="logo"><a href="#">Vishnu Saini</a></div>
+        <ul class="links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><div class="themeSwitch"></div></li>
+        </ul>
+      </div>
+    </nav>
   </div>
 
-  <div class="right-side">
-    <section id="home" class="home">
-      <h1>Hello, I'm Vishnu Saini</h1>
-      <p>Front end Developer</p>
-      <div class="contactIcons">
-        <div class="icon">
-          <a href="https://www.linkedin.com/in/imvishnusaini" target="_blank">
-          <i class="fab fa-linkedin"></i>
-          </a>
-        </div>
-
-        <div class="icon">
-          <a href="https://www.github.com/vishnusaini07" target="_blank">
-            <i class="fab fa-github"></i>
-            </a>
-        </div>
-
-        <div class="icon">
-          <a href="https://www.facebook.com/imvishnusaini" target="_blank">
-            <i class="fab fa-facebook"></i>
-            </a>
-        </div>
-
-        <div class="icon">
-          <a href="https://www.twitter.com/vsnusaini" target="_blank">
-            <i class="fab fa-twitter"></i>
-            </a>
-        </div>
-
-        <div class="icon">
-          <a href="https://www.instagram.com/im_vishnu_saini" target="_blank">
-            <i class="fab fa-instagram"></i>
-            </a>
-        </div>
-
+  <section class="banner" id="banner">
+    <div class="content">
+      <div class="imgBx">
+        <img src="user.jpg" alt="Vishnu Saini">
       </div>
-    </section>
-
-    <!-- About Section -->
-
-     <section id="about" class="about">
-      <h1>About</h1>
-
-      <div class="detailbx">
-        <div class="detail">
-          <p>A passionate Full Stack Learner having knowledge about various technologies.<br><br>Love to make amazing things from Web designing.</p>
-        </div>
-        <div class="imgbx">
-          <img src="img/vishnu.jpg" alt="">
-        </div>
-        <div class="skills">
-          <h3>Skills</h3>
-          <div class="skill">
-            <p><i class="fab fa-html5"></i></p>
-            <p><i class="fab fa-css3-alt"></i></p>
-            <p><i class="fab fa-js-square"></i></p>
-            <p><i class="fab fa-bootstrap"></i></p>
-            <p><i class="fab fa-node"></i></p>
-            <p><i class="fab fa-react"></i></p>
-            <p><i class="fab fa-python"></i></p>
-            <p><i class="fab fa-java"></i></p>
-          </div>
-
-        </div>
-      </div>
-
-    </section>
-
-    <!-- Project Section -->
-
-    <section id="project" class="project">
-      <h1>Projects</h1>
-
-      <div class="grid-container">
-        <a href="https://vishnusaini07.github.io/Calculator-App/" target="_blank">
-          <div class="grid-item">
-              <img src="img/img1.png" alt="">
-              <div class="textBx">
-                <h3>Calculator App</h3>
-              </div>
-          </div>
-        </a>
-        
-        <a href="https://vishnusaini07.github.io/Clock-App-UI/" target="_blank">
-          <div class="grid-item">
-            <img src="img/img2.png" alt="">
-            <div class="textBx">
-              <h3>Clock App UI</h3>
-            </div>
-          </div>
-        </a>
-          
-        <a href="https://vishnusaini07.github.io/Quiz-Mania/" target="_blank">
-          <div class="grid-item">
-            <img src="img/img3.png" alt="">
-            <div class="textBx">
-              <h3>Quiz Mania</h3>
-            </div>
-          </div>
-        </a>
-         
-        <a href="https://vishnusaini07.github.io/Animated-Heart-Background/" target="_blank">
-          <div class="grid-item">
-            <img src="img/img4.png" alt="">
-            <div class="textBx">
-              <h3>Animate Heart Background</h3>
-            </div>
-          </div>
-        </a>
-          
-        <a href="https://vishnusaini07.github.io/Todo-App/" target="_blank">
-          <div class="grid-item">
-            <img src="img/img5.png" alt="">
-            <div class="textBx">
-              <h3>Todo App</h3>
-            </div>
-          </div>
-        </a>
-
-      </div>
-    </section>
-
-    <section id="resume" class="resume">
-      <h1>Resume</h1>
-
-      <div class="downloadResume">
-        <p><a href="Vishnu Saini - CV.pdf" download="Vishnu Saini Resume">Download Resume</a></p>
-      </div>
-
-    </section>
-
-    <section class="footer">
-      <p>&copy; <span>year</span>, Vishnu Saini</p>
-
-      <p class="back"><a href="#home">Back to Top</a></p>
-
-      <div class="contactIcons">
-        <div class="icon">
-          <a href="https://www.linkedin.com/in/imvishnusaini" target="_blank">
-          <i class="fab fa-linkedin"></i>
-          </a>
-        </div>
-
-        <div class="icon">
-          <a href="https://www.github.com/vishnusaini07" target="_blank">
-            <i class="fab fa-github"></i>
-            </a>
-        </div>
-
-        <div class="icon">
-          <a href="https://www.facebook.com/imvishnusaini" target="_blank">
-            <i class="fab fa-facebook"></i>
-            </a>
-        </div>
-
-        <div class="icon">
-          <a href="https://www.twitter.com/vsnusaini" target="_blank">
-            <i class="fab fa-twitter"></i>
-            </a>
-        </div>
-
-        <div class="icon">
-          <a href="https://www.instagram.com/im_vishnu_saini" target="_blank">
-            <i class="fab fa-instagram"></i>
-            </a>
-        </div>
-    </section>
-  </div>
-
-</div>
+      <h3>Vishnu Saini</h3>
+      <p>I'm a Creative Front End Developer.</p>
+      <a href="resume/index.html" class="btn">My Resume</a>
+      <ul class="socialMedia">
+        <li><a href="https://www.linkedin.com/in/imvishnusaini" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.github.com/vishnusaini07" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.twitter.com/vsnusaini" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </section>
   
-<script>
-  const year = document.querySelector('span');
-  const currentYear = new Date().getFullYear();
-  year.innerHTML = currentYear;
-</script>
+  <!-- About -->
+  <section class="about adjust" id="about">
+    <div class="title">
+      <h2>About Me</h2>
+    </div>
+    <div class="content">
+      <div class="textBox">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis temporibus magni impedit! Sint corrupti distinctio, exercitationem nulla explicabo unde amet facere non vero voluptatem ut eveniet architecto, repellendus nobis atque?<br><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit sed voluptates harum modi, blanditiis ex quod veniam amet accusantium voluptas quisquam atque velit adipisci a optio cumque, reiciendis repudiandae itaque.</p>
+      </div>
+      <div class="imgBx">
+        <img src="user.jpg" alt="Vishnu Saini">
+      </div>
+    </div>
+  </section>
+  
+  <!-- Skills -->
+  <section class="skill adjust" id="skill">
+    <div class="title">
+      <h2>Skills</h2>
+    </div>
+    <div class="content">
+      <div class="skillBox">
+        <img src="icons/html.png" alt="">
+        <h2>HTMl</h2>
+      </div>
+      <div class="skillBox">
+        <img src="icons/css-3.png" alt="">
+        <h2>CSS</h2>
+      </div>
+      <div class="skillBox">
+        <img src="icons/javascript.png" alt="">
+        <h2>Javascript</h2>
+      </div>
+      <div class="skillBox">
+        <img src="icons/bootstrap-fill.svg" alt="">
+        <h2>Bootstrap</h2>
+      </div>
+      <div class="skillBox">
+        <img src="icons/jquery.png" alt="">
+        <h2>jquery</h2>
+      </div>
+      <div class="skillBox">
+        <img src="icons/nodejs.png" alt="">
+        <h2>node js</h2>
+      </div>
+      <div class="skillBox">
+        <img src="icons/react.png" alt="">
+        <h2>react</h2>
+      </div>
+      <div class="skillBox">
+        <img src="icons/python.png" alt="">
+        <h2>Python</h2>
+      </div>
+      <div class="skillBox">
+        <img src="icons/mysql.svg" alt="">
+        <h2>mysql</h2>
+      </div>
+      <div class="skillBox">
+        <img src="icons/mongo2.svg" alt="">
+        <h2>mongo db</h2>
+      </div>
+      <div class="skillBox">
+        <img src="icons/vscode1.png" alt="">
+        <h2>vs code</h2>
+      </div>
+      <div class="skillBox">
+        <img src="icons/figma.png" alt="">
+        <h2>figma</h2>
+      </div>
+    </div>
+  </section>
 
+  <!-- Project -->
+  <section class="project adjust" id="project">
+    <div class="title">
+      <h2>Projects</h2>
+    </div>
+    <div class="content">
+      <div class="projectBx">
+        <div class="imgBx">
+          <img src="projects/img1.png" alt="">
+        </div>
+        <div class="textBx">
+          <h3>Calculator App</h3>
+        </div>
+      </div>
+      <div class="projectBx">
+        <div class="imgBx">
+          <img src="projects/img2.png" alt="">
+        </div>
+        <div class="textBx">
+          <h3>Clock App UI</h3>
+        </div>
+      </div>
+      <div class="projectBx">
+        <div class="imgBx">
+          <img src="projects/img3.png" alt="">
+          </div>
+        <div class="textBx">
+          <h3>Quiz Mania</h3>
+        </div>
+      </div>
+      <div class="projectBx">
+        <div class="imgBx">
+          <img src="projects/img4.png" alt="">
+        </div>
+        <div class="textBx">
+          <h3>Animated Heart Background</h3>
+        </div>
+      </div>
+      <div class="projectBx">
+        <div class="imgBx">
+          <img src="projects/img5.png" alt="">
+        </div>
+        <div class="textBx">
+          <h3>ToDo App</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact adjust" id="contact">
+    <div class="title">
+      <h2>contact</h2>
+    </div>
+      <ul class="socialMedia">
+        <li><a href="https://www.linkedin.com/in/imvishnusaini" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.twitter.com/vsnusaini" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="mailto:vis.saini2015@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.facebook.com/imvishnusaini" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/im_vishnu_saini" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="tel:6397457875" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i>
+        </a></li>
+      </ul>
+  </section>
+
+  <!-- Copyright Text -->
+  <div class="copyright">
+    <p>Copyright &copy; 2021 Vishnu Saini</p>
+  </div>
+
+  <script>
+    let themeSwitch = document.querySelector('.themeSwitch');
+    let body = document.querySelector('body');
+
+    themeSwitch.onclick  = function(){
+      body.classList.toggle('dark');
+    }
+  </script>
+  
 </body>
 </html>
