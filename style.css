@@ -647,7 +647,7 @@ background: #2196f3;
   }
   .banner .socialMedia {
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
     display: flex;
   }
 }
