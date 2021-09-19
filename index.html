@@ -10,6 +10,8 @@
 </head>
 <body>
 
+  <div id="preloader"></div>
+
   <div class="wrapper">
     <nav>
       <input type="checkbox" id="show-menu">
@@ -26,7 +28,6 @@
       </div>
     </nav>
   </div>
-
 
   <section class="banner" id="banner">
     <div class="content">
@@ -186,15 +187,7 @@
   <div class="copyright">
     <p>Copyright &copy; 2021 Vishnu Saini</p>
   </div>
+  <script src="app.js"></script>
 
-  <script>
-    let themeSwitch = document.querySelector('.themeSwitch');
-    let body = document.querySelector('body');
-
-    themeSwitch.onclick  = function(){
-      body.classList.toggle('dark');
-    }
-  </script>
-  
 </body>
 </html>
