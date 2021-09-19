@@ -9,6 +9,18 @@
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--black);
+}
+
 :root {
   --black: #333;
   --black2: #333;
@@ -25,6 +37,7 @@
 }
 
 body {
+  position: relative;
   overflow-x: hidden;
 }
 
@@ -32,7 +45,7 @@ body {
   background: var(--white2);
   position: fixed;
   width: 100%;
-  z-index: 100000;
+  z-index: 10000;
 }
 
 .wrapper nav {
@@ -218,6 +231,11 @@ p {
 
 .dark p {
   color: var(--black);
+}
+
+#box {
+  position: absolute;
+  top: 50%;
 }
 
 .btn {
